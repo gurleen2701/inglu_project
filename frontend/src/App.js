@@ -17,8 +17,6 @@ function App() {
 
   return (
     <div style={{ textAlign: "center" }}>
-      <h2>Contact Manager</h2>
-      <ContactForm refresh={fetchContacts} />
       <ContactList contacts={contacts} refresh={fetchContacts} />
     </div>
   );
